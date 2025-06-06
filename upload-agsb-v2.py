@@ -32,7 +32,7 @@ CUSTOM_DOMAIN_FILE = INSTALL_DIR / "custom_domain.txt" # 存储最终使用的�
 
 # ====== 全局可配置参数（可直接在此处修改） ======
 USER_NAME = "zhongyuand"         # 用户名
-UUID = "https://github.com/zhumengkang/agsb"                     # UUID，留空则自动生成
+UUID = "6b712789-81c3-4626-9326-633054ad3146"                     # UUID，留空则自动生成
 PORT = 28848                   # Vmess端口，留空或0则自动生成
 DOMAIN = "fr2ee.kfc3.dpdns.org"                   # 域名，留空则自动获取
 CF_TOKEN = "eeyJhIjoiNWQ1NTgzNzNmMDYwZjdkYzQ3OTFlYjdjZTRjNDU5ZDEiLCJ0IjoiMDlkZTdkOTgtYjdjYy00ZGVlLWFkMzctMjYxMGZlOGE1MTdmIiwicyI6Ik9UUm1ZMll3WldRdE1XVTROQzAwTnpobExUaGlaak10TW1OaE5HVXdZVGcxTm1KbCJ9"
