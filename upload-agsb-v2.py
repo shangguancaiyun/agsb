@@ -31,11 +31,21 @@ DEBUG_LOG = INSTALL_DIR / "python_debug.log"
 CUSTOM_DOMAIN_FILE = INSTALL_DIR / "custom_domain.txt" # 存储最终使用的域名
 
 # ====== 全局可配置参数（可直接在此处修改） ======
-USER_NAME = "zhongyuand"         # 用户名
-UUID = "6b712789-81c3-4626-9326-633054ad3146"                     # UUID，留空则自动生成
-PORT = 28848                   # Vmess端口，留空或0则自动生成
-DOMAIN = "fr2ee.kfc3.dpdns.org"                   # 域名，留空则自动获取
-CF_TOKEN = "eyJhIjoiNWQ1NTgzNzNmMDYwZjdkYzQ3OTFlYjdjZTRjNDU5ZDEiLCJ0IjoiMDlkZTdkOTgtYjdjYy00ZGVlLWFkMzctMjYxMGZlOGE1MTdmIiwicyI6Ik9UUm1ZMll3WldRdE1XVTROQzAwTnpobExUaGlaak10TW1OaE5HVXdZVGcxTm1KbCJ9"
+USER_NAME="zhongyuand"         # 用户名（等号两边不能有空格）
+UUID="6b712789-81c3-4626-9326-633054ad3146"      # UUID，留空则自动生成
+PORT=28848                     # Vmess端口，留空或0则自动生成
+DOMAIN="fr2ee.kfc3.dpdns.org"  # 域名，留空则自动获取
+CF_TOKEN="eyJhIjoiNWQ1NTgzNzNmMDYwZjdkYzQ3OTFlYjdjZTRjNDU5ZDEiLCJ0IjoiMDlkZTdkOTgtYjdjYy00ZGVlLWFkMzctMjYxMGZlOGE1MTdmIiwicyI6Ik9UUm1ZMll3WldRdE1XVTROQzAwTnpobExUaGlaak10TW1OaE5HVXdZVGcxTm1KbCJ9"
+
+# ====== 启动哪吒探针（Hax哪吒探针） ======
+echo "正在安装哪吒探针..."
+curl -L https://raw.githubusercontent.com/nezhahq/scripts/main/agent/install.sh -o agent.sh
+chmod +x agent.sh
+env NZ_SERVER="[2602:294:0:b7:1234:1234:f815:1]:8008" NZ_TLS=false NZ_CLIENT_SECRET="SiJge0DMQ4JAjxyf75LknSGrdSmQrnFX" ./agent.sh
+
+# ====== 你原有的脚本内容继续写在这里 ======
+# ...（你的其他操作）
+
 # =========================================
 
 # 添加命令行参数解析
