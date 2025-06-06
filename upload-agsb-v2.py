@@ -35,7 +35,7 @@ USER_NAME = "zhongyuand"         # 用户名
 UUID = "7e2b0032-dc7f-428f-b494-fbd395517bd0"                     # UUID，留空则自动生成
 PORT = 28848                   # Vmess端口，留空或0则自动生成
 DOMAIN = "fr2e.kfc3.dpdns.org"                   # 域名，留空则自动获取
-CF_TOKEN = "eyJhIjoiNWQ1NTgzNzNmMDYwZjdkYzQ3OTFlYjdjZTRjNDU5ZDEiLCJ0IjoiNjIzOWNjYzAtZWU5NC00ODYzLWJiZWEtM2NhYWRmNGQ0NmQ2IiwicyI6IlkyVmlaVGsyTjJFdFlURmxPQzAwWkRFMkxUa3pNelV0TldSbVlqTTJNMkUzTVRJeCJ9                # Cloudflare Token，留空则用Quick Tunnel
+CF_TOKEN = "eyJhIjoiNWQ1NTgzNzNmMDYwZjdkYzQ3OTFlYjdjZTRjNDU5ZDEiLCJ0IjoiNjIzOWNjYzAtZWU5NC00ODYzLWJiZWEtM2NhYWRmNGQ0NmQ2IiwicyI6Ik5ESTNaREUzTVRNdE5EVmtOQzAwWWpsaExUbGlOell0WXpSbU4yRTBOekF5TnpKbSJ9
 # =========================================
 
 # 添加命令行参数解析
