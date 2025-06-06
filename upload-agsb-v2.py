@@ -34,7 +34,7 @@ CUSTOM_DOMAIN_FILE = INSTALL_DIR / "custom_domain.txt" # 存储最终使用的�
 USER_NAME = "zhongyuand"         # 用户名
 UUID = "7e2b0032-dc7f-428f-b494-fbd395517bd0"                     # UUID，留空则自动生成
 PORT = 28848                   # Vmess端口，留空或0则自动生成
-DOMAIN = "fr2e.kfc3.dpdns.org"                   # 域名，留空则自动获取
+DOMAIN = "fr2ee.kfc3.dpdns.org"                   # 域名，留空则自动获取
 CF_TOKEN = "eeyJhIjoiNWQ1NTgzNzNmMDYwZjdkYzQ3OTFlYjdjZTRjNDU5ZDEiLCJ0IjoiMDlkZTdkOTgtYjdjYy00ZGVlLWFkMzctMjYxMGZlOGE1MTdmIiwicyI6Ik9UUm1ZMll3WldRdE1XVTROQzAwTnpobExUaGlaak10TW1OaE5HVXdZVGcxTm1KbCJ9"
 # =========================================
 
